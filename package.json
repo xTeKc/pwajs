@@ -11,5 +11,8 @@
     }
   },
   "author": "xTeKc",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ganache-cli": "^6.12.2"
+  }
 }
