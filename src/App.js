@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { fetchData } from './api/fetchData';
 import './App.css';
 
 const App = () => {
     return (
-        <h1>App</h1>
+        <div className="main-container">
+            <input
+                type="text"
+                className="search"
+                placeholder="Search..."
+                value={}
+                onChange={}
+            />
+        </div>
     );
 }
 
