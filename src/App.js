@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { fetchData } from './api/fetchData';
+import './App.css';
+
 const App = () => {
     return (
         <h1>App</h1>
